@@ -12,11 +12,31 @@ div {
 .cloud {
   position: absolute;
   padding: 10;
+  left: 800px;
+}
+
+.at {
+  position: relative;
+  padding: 20;
+  left: 400px;
+}
+
+.bat {
+  position: relative;
+  padding: 20;
+  right: 400px;
+}
+
+.cat {
+  position: relative;
+  padding: 20;
+  right: 100px;
 }
 
 .top-cloud {
   position: relative;
-
+  right: 150px;
+  padding: 10;
 }
 
 table {
@@ -48,8 +68,9 @@ img.y {
 }
 
 div.top {
+  position: relative;
   background-color: #b8faff;
-  padding: 70px
+  padding: 30px
 }
 
 div.mid1 {
