@@ -2,10 +2,25 @@ body {
   background-color:#f1fdfd;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 0;
+  text-align: center;
 }
 
 div {
   padding: 20px;
+}
+
+.cloud {
+  position: absolute;
+  padding: 10;
+}
+
+.top-cloud {
+  position: relative;
+
+}
+
+table {
+  margin: 0 auto 0 auto;
 }
 
 hr {
@@ -17,7 +32,7 @@ hr {
   width: 4%;
 }
 
-h1, h3 {
+h1, h3, h2 {
   margin: 0;
   color: #66BFBF;
 }
@@ -34,6 +49,7 @@ img.y {
 
 div.top {
   background-color: #b8faff;
+  padding: 70px
 }
 
 div.mid1 {
@@ -46,4 +62,8 @@ div.mid2 {
 /*****************************************id selector**************************************/
 #me {
   color: #1bcee6;
+}
+
+#h3 {
+  color: black;
 }
